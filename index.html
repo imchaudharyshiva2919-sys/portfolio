@@ -1,208 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <style>
-    .container {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-</style>
-<style>
-.card {
-    width: 200px;
-      height: 100px;
-    padding: 20px;
-    background-color: #90e0ef;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    text-align: center;
-}
-</style>
-<style>
-.card2 {
-    width: 200px;
-      height: 100px;
-    padding: 20px;
-    background-color: #00b4d8;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    text-align: center;
-}
-</style>
-<style>
-.card3 {
-    width: 200px;
-    height: 100px;
-    padding: 20px;
-    background-color: #0077b6;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    text-align: center;
-}
-</style>
-<style>
-    .container2 {
-        width:500px;
-        padding:20px;
-        background-color: #000f22;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-
-    }
-    .container2:hover{
-        transform: translateY(-5px);
-        transition: 0.3s;
-    }
-    .container2 h3,
-    .container2 p{
-        color:rgb(255, 255, 255)
-    }
-</style>
-<style>
-    .card4 {
-        width:500px;
-        padding:20px;
-        background-color: #000f22;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-
-    }
-    .card4:hover{
-        transform: translateY(-5px);
-        transition: 0.3s;
-    }
-    .card4 ul {
-        color:rgb(255, 255, 255)
-    }
-</style>
-<style>
-.card:hover ,
-.card2:hover,
-.card3:hover{
-    transform: translateY(-5px);
-    transition: 0.3s;
-}
-</style>
-<style>
-    .card h3,
-.card p {
-    color: #0077b6;
-}
-</style>
-<style>
-    .card2 h3,
-.card2 p {
-    color: #03045e;
-}
-</style>
-<style>
-    .card3 h3,
-.card3 p {
-    color: #caf0f8;
-}
-</style>
-<style>.hero {
-    display: flex;
-    align-items: center;
-    gap: 70px;  
-}
-.image img {
-    border-radius: 50%;
-}
-</style>
-<style>.container3 {
-    display: flex;
-    align-items: flex-start;
-    gap: 70px;  
-}
-.image img {
-    border-radius: 50%;
-}
-
-</style>
-
-<style>
-    .one-class ,.hero, .resume , .two-class{
-         border-radius: 10px;
-        background-color:#11212d;
-        padding: 50px;
-    } 
-</style>
-<style>
-    .card9 h2 ,.card10 h2,.text h1, .text h2, .text p, .card6 h2, .card5 h2{
-        color:white;
-    }
-</style>
-<style>
-    /* Section */
-.resume {
-    padding: 40px;
-}
-
-/* Container (side by side cards) */
-.container4 {
-    display: flex;
-    gap: 40px;
-}
-
-/* Card design */
-.card7,.card8 {
-    background-color: #0a1931;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-}
-
-.card7:hover,.card8:hover{
-    transform: translateY(-5px);
-    transition: 0.3s;
-}
-
-/* Heading */
-.card h3 {
-    margin-bottom: 15px;
-}
-
-/* Rows */
-.row {
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5px 0;
-}
-
-/* Alternate colors */
-.light {
-    background-color: #1a3d63;
-}
-
-.dark {
-    background-color: #0a1931;
-}
-.card7,.card8 {
-    background-color: #0d1b2a;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-
-    height: auto;   /* IMPORTANT */
-}
-.row {
-    padding: 10px;
-    border-radius: 5px;
-    margin: 8px 0;
-
-    width: 100%;   /* ye add karo */
-    box-sizing: border-box;  /* VERY IMPORTANT */
-}
-.container4 {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-}
-</style>
+     <link rel="stylesheet" href="style2.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -227,36 +26,37 @@
 </section>
 <hr>
 
-<section class="one-class">
-    <div class="card9">
+<section class="skill-section">
+    <div class="skill-header">
     <h2>My Skills</h2>
     </div>
-   <div class="container">
+   <div class="skills">
 
-    <div class="card">
+    <div class="html">
         <h3>HTML</h3>
         <p>Basic structure of web pages</p>
     </div>
 
-    <div class="card2">
+    <div class="css">
         <h3>CSS</h3>
         <p>Learning styling and layouts</p>
     </div>
 
-    <div class="card3">
+    <div class="design">
         <h3>Design</h3>
         <p>Simple clean layouts</p>
     </div>
 
 </div>
 </section>
-<section class="two-class">
-<div class="container3">
-    <div class="card6">
+<section class="my-data">
+<div class="about-myself">
+    <div class="about">
 <h2>
     About
 </h2>
-<div class ="container2">
+
+<div class ="myself">
     <h3>Who is Shivam ?</h3>
     <p>I am a beginner web developer currently learning HTML and CSS.</p>
 <p>I enjoy building simple websites and improving my skills step by step.</p>
@@ -265,11 +65,11 @@
 </div>
 </div>
 
-    <div class="card5">
+    <div class="stats">
     <h2>
         Stats
     </h2>
-    <div class="card4">
+    <div class="list">
         <ul>
             <li>2+ Practice Projects</li>
             <li>Learning HTML and CSS</li>
@@ -281,14 +81,14 @@
 </section>
 <hr>
 <section class="resume">
-    <div class="card10">
+    <div class="about-contacts">
     <h2>About My Resume</h2>
     </div>
 
-    <div class="container4">
+    <div class="about-me">
 
         <!-- CONTACT -->
-        <div class="card7">
+        <div class="contacts">
             <h3>Contact</h3>
 
             <p class="row light"><b>E-mail:</b> im.chaudharyshiva2919@gmail.com</p>
@@ -298,7 +98,7 @@
         </div>
 
         <!-- ME -->
-        <div class="card8">
+        <div class="me">
             <h3>Me</h3>
 
             <p class="row light"><b>Age:</b> 19</p>
